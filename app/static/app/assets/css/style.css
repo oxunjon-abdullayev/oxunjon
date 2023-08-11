@@ -1,0 +1,197 @@
+/* Typography */
+body {
+    font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: 300;
+}
+img{
+	max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* START PRELOADER DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.preloader {
+	background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;	
+}
+.spinner {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+	font-size: 10px;
+	text-indent: -12345px;
+	z-index: 10000;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fd562a;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.dark_preloader .double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*
+* ----------------------------------------------------------------------------------------
+* END PRELOADER DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* START HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+#home{
+    padding: 100px 0;
+    background: #000;
+}
+.single_slide_item h1{
+	color: #fd562a;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+.single_slide_item h3 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* END HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* START DEMO DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.section_padding {
+    padding: 100px 0 30px;
+}
+.single_demo{
+    margin-bottom: 60px;
+}
+.single_demo img{
+    max-width: 100%;
+	opacity: 1;
+    box-shadow: 0 8px 40px rgba(0,0,0, 0.1);
+	transition: all 0.4s;
+}
+.single_demo img:hover{
+	opacity: 0.7;
+    transform: translateY(-10px);
+}
+.single_demo h4{
+    color: #222;
+	text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 40px 0 0;
+}
+.single_demo h4:hover{
+	color: #fd562a;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* END DEMO DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* START COPYRIGHT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.copyright_area {
+    background: #141414;
+}
+.copy_text{
+	padding: 5px 0;
+}
+.copy_text p{
+	color: #fff;
+	margin-top: 20px;
+	padding-bottom: 2px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* END COPYRIGHT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
